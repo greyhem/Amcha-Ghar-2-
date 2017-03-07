@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* The mod (background) */
+.mod {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* mod Content */
+.mod-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h2>mod Example</h2>
+
+<!-- Trigger/Open The mod -->
+<button id="myBtn">Open mod</button>
+
+<!-- The mod -->
+<div id="mymod" class="mod">
+
+  <!-- mod content -->
+  <div class="mod-content">
+    <span class="close">×</span>
+    <p>Some text in the mod..</p>
+  </div>
+
+</div>
+
+<script>
+// Get the mod
+var mod = document.getElementById('mymod');
+
+// Get the button that opens the mod
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the mod
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the mod 
+btn.onclick = function() {
+    mod.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the mod
+span.onclick = function() {
+    mod.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the mod, close it
+window.onclick = function(event) {
+    if (event.target == mod) {
+        mod.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container_12">
+				<div class="grid_6">
+					<h2>WHAT DO WE DO?</h2>
+					<img src="img/24.jpg" alt="" class="img_inner fleft">
+					<div class="extra_wrapper">
+						<p class="col2">Whom do we help</p>
+						
+						<br>
+						<button id="btn">Open mod</button>
+					</div>
+					<div class="clear cl1"></div>
+					<img src="images/page2_img2.jpg" alt="" class="img_inner fleft">
+					<div class="extra_wrapper">
+						<p class="col2"><a href="#">Horas facilisis, nulla vel viverra tor, leo magna sodales felisulo </a></p>
+						Proin pharetra luctus diamerer scelerisque eros convallisami
+						<br>
+						<a href="#" id="btn">Learn More</a>
+					</div>
+					<div class="clear cl2"></div>
+					<img src="images/page2_img3.jpg" alt="" class="img_inner fleft">
+					<div class="extra_wrapper">
+						<p class="col2"><a href="#">Goreas facilisis, nulla vel viverra tor, leo magna sodales felisuiser </a></p>
+						Loroin pharetra luctus diamer scelerisque eros convallisager
+						<br>
+						<a href="#" class="btn">Learn More</a>
+					</div>
+					<div class="clear cl1"></div>
+				</div>
+				<div class="grid_5 prefix_1">
+					<h2>Upcoming Actions</h2>
+					<ul class="list l1 col2">
+						<li>
+							<time datetime="2014-01-01">20<span>Mar</span></time>
+							<div class="extra_wraper">
+								<a href="#">Lorem ipsum dolor sit amet, secteturipiscing elitno mollis erat mattis neque facilisis, sit amet ultricies erater </a>
+							</div>
+						</li>
+						<li>
+							<time datetime="2014-01-01">30<span>Mar</span></time>
+							<div class="extra_wraper">
+								<a href="#">Dorem ipsum dolor sit amet, secteturipiscing elitno mollis erat mattis neque facilisis, sit amet ultricies erater eroli</a>
+							</div>
+						</li>
+						<li>
+							<time datetime="2014-01-01">10<span>Apr</span></time>
+							<div class="extra_wraper">
+								<a href="#">Morem ipsum dolor sit amet, secteturipiscing elitno mollis erat mattis neque facilisis, sit amet ultricies eraterer lokoi </a>
+							</div>
+						</li>
+						<li>
+							<time datetime="2014-01-01">25<span>Apr</span></time>
+							<div class="extra_wraper">
+								<a href="#">Toloorem ipsum dolor sit amet, teturipiscing elitno mollis erat mattis neque facilisis, sit amet ultricies eraterwe retylo </a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container_12">
+  <img src="img/24.jpg" class="img-responsive" alt="">
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+  
+                   
+                                <i >Whom do we help</i>
+                            
+					
+  
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+		<align= justify>
+          <h2>Whom We Help</h2>
+                            <hr class="star-primary">
+                            <img src="img/24.jpg" class="img-responsive img-centered" alt="">
+                            <p><p>
+							Amcha Ghar accepts orphaned, semi-orphaned, neglected and abandoned girls. We work with rejected children, orphans who do not know their origin, children of commercial sex workers, children abused by their relatives, children who have witnessed the suicide of family members, and children deserted due to poverty and hardship. Some girls’ parents have contracted HIV/AIDS and are unable to care for them, although the girls themselves do not have HIV.<br>
+
+Some were sold to brothels in other states, expected to suffer the pain in silence; others resorted to glue-sniffing to escape daily physical and emotional duress. These children are often found in unhygienic conditions on streets and beaches, or in parks, parking lots, or slums.<br>
+
+Girls generally come to Amcha Ghar after five years of age, although exceptions are made for emergencies. We provide a safe, loving environment to support their growth until they have completed their education and/or vocational training and can provide for themselves as successful adult women.<br>
+
+							</p></p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+							</align>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img src="img/27.png" class="img-responsive" alt="">
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">
+  
+                   
+                                <i >Daily Activities</i>
+                            
+					
+  
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        
+        <div class="modal-body">
+		<align= justify>
+          <h2>Daily Activities</h2>
+                            <hr class="star-primary">
+                            <img src="img/27.png" class="img-responsive img-centered" alt="">
+                            <p><ul>
+							The Main Activities at Amcha Ghar Are
+<br>
+• Structured daily routine for children:
+<li>
+ Nursery to Senior kindergarten.: get up at 7am, breakfast, classes at Amcha Ghar School from 8:30-11:30am, lunch, nap, tuition from 3-5 pm<,li><li>
+ 1st to 4th Standard: get up at 7am, breakfast, tuition from 9-11am, lunch, classes at Amcha Ghar School from 12:30-5:30pm</li><li>
+ 5th to 10th Standard: get up at 5am, breakfast, classes at Amcha Ghar School from 7-1pm, lunch and rest, tuition from 3-5 pm</li><li>
+ Group evening routine: tuition from 6:30-8:30pm, evening prayers, dinner, and night prayers. Thereafter children may finish studying or go directly to bed by 10.30pm.
+</li></ul> 
+<br>
+<ul>
+<li>
+ Nutritious meals, including daily breakfast, lunch, evening snacks, and dinner.</li><li>
+ Hygienic washing facilities for the children and their clothing.</li><li>
+ Formal English Medium School.</li><li>
+ On-site skills training in computer technology, sewing, music, etc.</li><li>
+ Skills training placements in the community with local tradesmen.</li><li>
+ Life skills lessons on HIV/AIDS, first aid, relationships, personality development.</li><li>
+ Group and individual counseling.</li><li>
+ Sports and other recreational activities.</li><li>
+ Birthday celebrations: all the girls make a card for the birthday girl and sing for her before having cake. Each girl is given a new dress on her birthday. For those children who do not have living parents or relatives, a trustee brings cake and a dress.</li><li>
+ Celebration of all feasts.</li><li>
+ Monthly medical check-up and monitoring of height, weight and BMI.</li><li>
+ Beyond meeting the children’s physical needs, we aim to stimulate their desire to learn and help them find a Home “without walls.”</li>
+
+	<ul>						</p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+							</align>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="clear cl1"></div>
+			<img src="img/28.jpg" class="img-responsive" alt="">
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">
+  
+                   
+                                <i >Future Plans</i>
+                            
+					
+  
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        
+        <div class="modal-body">
+		<align= "justify">
+          <h2>Future Plans</h2>
+                            <hr class="star-primary">
+                            <img src="img/28.jpg" class="img-responsive img-centered" alt="">
+                            <p><p>
+							>Amcha Ghar School
+<br>
+The local community is very happy with our school. We offer classes up to 10th standard with professional teachers. As our standards increase, so does our number of students. It is becoming more difficult everyday to house our students. Our school goals for near future.
+<br>
+<ul>
+<li>
+ Find funding to construct a new classrooms & development</li><li>
+ Implement school bus service</li><li>
+ Start scholarship programme to fund college tuition for pupils who graduate 10th standard.</li>
+</ul>
+<br>
+If we can reach these goals, we can offer near-free/subsidies education to over a thousand students!
+<br>
+Amcha Ghar Home
+<br><ul>
+<li>
+ Find patrons for scholarships for college education of the girls.</li><li>
+ Purchase land for development & expansion of our Home.</li><li>
+ Sponsorship for higher education.</li><li>
+ Our own premises for 18+ girls.</li></p></p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+							</align>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="clear cl1"></div>
+			<img src="img/29.jpg" class="img-responsive" alt="">
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">
+  
+                   
+                                <i >Computer Classes</i>
+                            
+					
+  
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        
+        <div class="modal-body">
+		<align= "justify">
+          <h2>Computer Classes</h2>
+                            <hr class="star-primary">
+                            <img src="img/29.jpg" class="img-responsive img-centered" alt="">
+                            <p><p>
+							<p>In today’s world having sound knowledge of computers and different computer software courses has become increasingly important. If you are looking for success and growth in your career, having proper computer training is a must.</p>
+<br><p>
+Starting up from the very basics and gradually building to advanced levels. our computer training courses are designed in such a way that learning becomes fun and simple. Our computer software modules are designed to help work your way through all the exercises and examples and gain enough proficiency in your chosen computer course.<br></p>
+
+							</p></p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+							</align>
+                        </div>
+                    </div>
+                </div>
+            </div>
